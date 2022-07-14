@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('Inter-ExtraBold.eot');
+    src: url('Inter-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Inter-ExtraBold.woff2') format('woff2'),
+        url('Inter-ExtraBold.woff') format('woff'),
+        url('Inter-ExtraBold.ttf') format('truetype'),
+        url('Inter-ExtraBold.svg#Inter-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+

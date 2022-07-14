@@ -1,0 +1,128 @@
+@media (max-width: 1600px) {
+.banner-left {
+    width: 57.6% !important;
+  }
+  }
+  @media (max-width: 1600px) {
+.banner-left {
+    width: 58% !important;
+  }
+  }
+  @media (max-width: 1300px) {
+.banner-left {
+    width: 58.4% !important;
+  }
+  .review-details-container .rev-left button {
+    width: 100%;
+    }
+  }
+@media (max-width: 1200px) {
+  .details-section {
+    flex-direction: column;
+    & > div {
+      margin-bottom: 20px;
+    }
+  }
+  .banner-left {
+    width: 59% !important;
+  }
+  .review-details-container .rev-left button {
+    width: 100%;
+  }
+}
+@media (max-width: 1110px) {
+.banner-left {
+    width: 60% !important;
+  }
+}
+@media (max-width: 991px) {
+  .review-details-container {
+    border: 1px solid #ede8e9;
+    width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .right-inner-content {
+    padding: 5px;
+  }
+  .banner-left {
+    width: 60% !important;
+  }
+  .review-details-container .rev-left {
+    border: none;
+  }
+  .menu-show {
+    padding-top: 50px;
+    .showMenuBtn {
+      margin: 0;
+    }
+  }
+  .review-details-container {
+    .rev-right {
+      padding: 0;
+    }
+  }
+  .row {
+    .right-inner {
+      padding: 0;
+    }
+  }
+
+  .mt20 {
+    margin-top: 5px;
+  }
+
+  .main-container {
+    width: 100% !important;
+    padding: 0 15px;
+  }
+  .review-details-container {
+    border: 1px solid #ede8e9;
+    width: 100%;
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 15px;
+  }
+  .main-container {
+    width: calc(100% - 40px);
+  }
+
+  .main-menu {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    box-shadow: 0 0 0 100em rgba(0, 0, 0, 0);
+    transform: translate3d(-290px, 0, 0);
+    transition: all 0.3s ease-in-out;
+  }
+      .title-lg{
+        font-size:25px;
+      }
+  .menu-show {
+    transform: translate3d(0, 0, 0);
+    background: $white;
+    box-shadow: 0 0 0 100em rgba(0, 0, 0, 0.6);
+    display: block;
+
+    z-index: 99999;
+  }
+
+  .showMenuBtn {
+    opacity: 1;
+  }
+
+  .main-menu:focus .showMenuBtn {
+    pointer-events: none;
+  }
+  .right-inner-content .panel {
+    padding: 0 10px;
+    width: 100%;
+  }
+  .hosted-details h3 {
+    font-size: 16px;
+    }
+    .section-list {
+    width: 100%;
+}
+}

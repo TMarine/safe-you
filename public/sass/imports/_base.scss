@@ -1,0 +1,87 @@
+@font-face {
+  font-family: "Mulish-Black";
+  src: url("../fonts/Mulish-Black/Mulish-Black.eot");
+  src: url("../fonts/Mulish-Black/Mulish-Black.eot")
+  format("embedded-opentype"),
+  url("../fonts/Mulish-Black/Mulish-Black.woff") format("woff"),
+  url("../fonts/Mulish-Black/Mulish-Black.ttf") format("truetype"),
+  url("../fonts/Mulish-Black/Mulish-Black.svg#PFDinTextProMedium")
+  format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Mulish-Light";
+  src: url("../fonts/Mulish-Light/Mulish-Light.eot");
+  src: url("../fonts/Mulish-Light/Mulish-Light.eot")
+  format("embedded-opentype"),
+  url("../fonts/Mulish-Light/Mulish-Light.woff") format("woff"),
+  url("../fonts/Mulish-Light/Mulish-Light.ttf") format("truetype"),
+  url("../fonts/Mulish-Light/Mulish-Light.svg#PFDinTextProMedium")
+  format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mulish-Medium";
+  src: url("../fonts/Mulish-Medium/Mulish-Medium.eot");
+  src: url("../fonts/Mulish-Medium/Mulish-Medium.eot")
+  format("embedded-opentype"),
+  url("../fonts/Mulish-Medium/Mulish-Medium.woff") format("woff"),
+  url("../fonts/Mulish-Medium/Mulish-Medium.ttf") format("truetype"),
+  url("../fonts/Mulish-Medium/Mulish-Medium.svg#PFDinTextProMedium")
+  format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/***************************navbar css start*************************/
+.container.header-inner{
+  max-width: 1286px;
+}
+.navbar .navbar-brand {
+  font-size: 30px;
+}
+.navbar .nav-item {
+  padding: 10px 20px;
+}
+.navbar .nav-link {
+  font-family: "Mulish-Medium", sans-serif;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 14px;
+}
+.fa-bars {
+  color: #007bff;
+  font-size: 30px;
+}
+/***************************navbar css end*************************/
+.home-container{
+  background: url(../images/home-bg.png) no-repeat;
+  height: 100vh;
+  background-size: 100%;
+  margin-top:-82px;
+}
+.home-container h1{
+  color: #fff;
+  font-family: "Mulish-Light", sans-serif;
+  font-size: 80px;
+}
+
+.home-container h1 b{
+  font-family: "Mulish-Black", sans-serif;
+}
+.home-container h1 span{
+  display: block;
+}
+.main-container{
+  width: 1131px;
+  margin:0 auto;
+}
+.home-left-banner{
+  padding-top:240px
+}
+.home-right-banner{
+  padding-top:176px
+}
