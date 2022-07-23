@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="icon_email" transform="translate(-866 -445)">
+    <path id="mail_FILL0_wght400_GRAD0_opsz48" d="M5.2,20a1.19,1.19,0,0,1-.84-.337A1.048,1.048,0,0,1,4,18.875V9.125a1.048,1.048,0,0,1,.36-.788A1.19,1.19,0,0,1,5.2,8H18.8a1.19,1.19,0,0,1,.84.338,1.048,1.048,0,0,1,.36.788v9.75a1.048,1.048,0,0,1-.36.788A1.19,1.19,0,0,1,18.8,20ZM12,14.338,5.2,10.156v8.719H18.8V10.156Zm0-1.125,6.72-4.087H5.3ZM5.2,10.156v8.719h0Z" transform="translate(866 443)" fill="#44173e"/>
+    <rect id="Rectangle_1985" data-name="Rectangle 1985" width="24" height="24" transform="translate(866 445)" fill="none"/>
+  </g>
+</svg>
