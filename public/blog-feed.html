@@ -16,45 +16,45 @@
 <body>
    <div class="wrapper">
       <header>
-         <nav class="navbar sticky-top navbar-expand-lg">
-            <div class="container header-inner">
-               <a class="navbar-brand" href="index.html"><img src="images/safeyou-logo.svg" alt="safeyou-logo"
-                     title="safeyou-logo"></a>
-               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <i class="fas fa-bars"></i>
-               </button>
-
-               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto w-100 justify-content-end">
-                     <li class="nav-item active">
-                        <a class="nav-link" href="about-us.html">ABOUT US <span class="sr-only">(current)</span></a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">THE PROBLEM</a>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">FOR PARTNERS</a>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">BLOG</a>
-                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
-                     </li>
-                  </ul>
+         <div class="container header-inner">
+            <a class="navbar-brand" href="index.html"><img src="images/safeyou-logo.svg" alt="safeyou-logo"
+                  title="safeyou-logo"></a>
+            <nav class="navbar sticky-top navbar-expand-lg navbar-home">
+               <div id="mySidenav" class="sidenav">
+                  <a href="#" class="closebtn"><img src="images/cross-icon.png" alt="cross" width="20"
+                        title="cross"></a>
+                  <a href="index.html" class="home-menu">HOME</a>
+                  <a href="about-us.html">ABOUT US</a>
+                  <a href="problem.html">THE PROBLEM</a>
+                  <a href="press.html">FOR PARTNERS</a>
+                  <a href="blog-categories.html" class="active-item">BLOG</a>
+                  <a href="contact-us.html">CONTACT</a>
                </div>
-            </div>
-         </nav>
-
+               <a href="#" class="exit-btn">
+                  Exit
+                  <span>
+                     <img src="images/icon-logout.svg" alt="icon-logout" title="icon-logout">
+                  </span>
+               </a>
+               <div class="sidebarbtn">
+                  <svg viewBox="0 0 100 80" width="20" height="20">
+                      <rect width="100" height="20"></rect>
+                      <rect y="30" width="100" height="20"></rect>
+                      <rect y="60" width="100" height="20"></rect>
+                  </svg>
+                </div>
+            </nav>
+         </div>
       </header>
-
       <section class="blog-feed-container">
          <div class="main-container">
-            <div class="row">
-               <div class="col-lg-4">
+            <div class="row m-0">
+               <div class="col-lg-4 p-0">
                   <h2 class="heading">BLOG</h2>
                </div>
                <div class="col-lg-8">
                   <div class="blog-categorires-box row">
-                     <div class="blog-categories-box-img position-relative col-lg-3 p-0">
+                     <div class="blog-categories-box-img position-relative p-0">
                         <img src="images/blog-bg1.png" alt="blog-categories" class="img-fluid" title="blog-categories">
                         <div class="blog-categories-overlay">
                            <div class="d-flex align-items-center">
@@ -68,7 +68,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="blog-categorires-box-details col-lg-8">
+                     <div class="blog-categorires-box-details">
                         <p class="blog-categories-txt blog-categories-date mb-2">29 NOV, 2021 | WOMEN'S RIGHTS</p>
                         <h3 class="blog-categories-box-title">
                            DUIS IN TEMPOR PURUS, SED CONGUE DIAM VARIUS NATOQUE PENATIBUS
@@ -79,7 +79,7 @@
                      </div>
                   </div>
                   <div class="blog-categorires-box row">
-                     <div class="blog-categories-box-img position-relative col-lg-3 p-0">
+                     <div class="blog-categories-box-img position-relative p-0">
                         <img src="images/blog-bg1.png" alt="blog-categories" class="img-fluid" title="blog-categories">
                         <div class="blog-categories-overlay">
                            <div class="d-flex align-items-center">
@@ -93,7 +93,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="blog-categorires-box-details col-lg-8">
+                     <div class="blog-categorires-box-details">
                         <p class="blog-categories-txt blog-categories-date mb-2">29 NOV, 2021 | WOMEN'S RIGHTS</p>
                         <h3 class="blog-categories-box-title">
                            DUIS IN TEMPOR PURUS, SED CONGUE DIAM VARIUS NATOQUE PENATIBUS
@@ -104,7 +104,7 @@
                      </div>
                   </div>
                   <div class="blog-categorires-box row">
-                     <div class="blog-categories-box-img position-relative col-lg-3 p-0">
+                     <div class="blog-categories-box-img position-relative p-0">
                         <img src="images/blog-bg1.png" alt="blog-categories" class="img-fluid" title="blog-categories">
                         <div class="blog-categories-overlay">
                            <div class="d-flex align-items-center">
@@ -118,7 +118,7 @@
                            </div>
                         </div>
                      </div>
-                     <div class="blog-categorires-box-details col-lg-8">
+                     <div class="blog-categorires-box-details">
                         <p class="blog-categories-txt blog-categories-date mb-2">29 NOV, 2021 | WOMEN'S RIGHTS</p>
                         <h3 class="blog-categories-box-title">
                            DUIS IN TEMPOR PURUS, SED CONGUE DIAM VARIUS NATOQUE PENATIBUS
@@ -131,125 +131,123 @@
                </div>
             </div>
          </div>
-
-
    </div>
    </section>
-
    <footer>
       <div class="footer-inner main-container">
-         <div class="footer-logo-social flex-container">
-            <div class="footer-logo-line flex-container">
-               <a class="navbar-brand" href="#"><img src="images/safeyou-logo.png" alt="safeyou-logo"
-                     title="safeyou-logo"></a>
-            </div>
-
+  
+        <div class="footer-menu flex-container">
+          <div class="col-lg-6">
+             <div class="footer-logo-line flex-container">
+            <a class="navbar-brand" href="#"><img src="images/safeyou-logo.png" alt="safeyou-logo"
+                title="safeyou-logo"></a>
+          </div>
+          
+          <ul class="footer-menu-list">
+            <li>
+              <a href="home.html">
+                HOME
+              </a>
+            </li>
+            <li>
+              <a href="about-us.html">
+                ABOUT US
+              </a>
+            </li>
+            <li>
+              <a href="problem.html">
+                THE PROBLEM
+              </a>
+            </li>
+            <li>
+              <a href="partners.html">
+                FOR PARTNERS
+              </a>
+            </li>
+            <li>
+              <a href="media.html">
+                MEDIA
+              </a>
+            </li>
+            <li>
+              <a href="blog.html">
+                BLOG
+              </a>
+            </li>
+            <li>
+              <a href="contact.html">
+                CONTACT
+              </a>
+            </li>
+          </ul>
+        </div>
+          <div class="footer-right-banner col-lg-6">
+            <div class="footer-right-banner-inner">
             <div class="footer-social-line flex-container">
-               <p>
-                  FOLLOW US
-               </p>
-               <div class="flex-container">
-                  <a class="#" href="#"><img src="images/icon-fb.svg" alt="icon-fb" title="icon-fb"></a>
-                  <a class="#" href="#"><img src="images/icon-ig.svg" alt="icon-ig" title="icon-ig"></a>
-               </div>
+              <p>
+                FOLLOW US
+              </p>
+              <div class="flex-container">
+                <a class="#" href="#"><img src="images/icon-fb.svg" alt="icon-fb" title="icon-fb"></a>
+                <a class="#" href="#"><img src="images/icon-ig.svg" alt="icon-ig" title="icon-ig"></a>
+              </div>
             </div>
-         </div>
-         <div class="footer-menu flex-container">
+  
+            <div class="social-btn-group flex-container">
+              <a href="#" class="social-btn">
+                <img src="images/play-store.png" alt="play-store" title="play-store">
+                <span class="footer-btn-group-inner">
+                  <span>
+                    GET IT ON
+                  </span>
+                  <span class="social-txt">
+                    Google Play
+                  </span>
+                </span>
+              </a>
+              <a href="#" class="social-btn">
+                <img src="images/apple.png" alt="apple" title="apple">
+                <span class="social-btn-group-inner">
+                  <span>
+                    DOWNLOAD ON THE
+                  </span>
+                  <span class="social-txt">
+                    App Store
+                  </span>
+                </span>
+              </a>
+            </div>
+          </div>
             <ul class="footer-menu-list">
-               <li>
-                  <a href="home.html">
-                     HOME
-                  </a>
-               </li>
-               <li>
-                  <a href="about-us.html">
-                     ABOUT US
-                  </a>
-               </li>
-               <li>
-                  <a href="problem.html">
-                     THE PROBLEM
-                  </a>
-               </li>
-               <li>
-                  <a href="partners.html">
-                     FOR PARTNERS
-                  </a>
-               </li>
-               <li>
-                  <a href="media.html">
-                     MEDIA
-                  </a>
-               </li>
-               <li>
-                  <a href="blog.html">
-                     BLOG
-                  </a>
-               </li>
-               <li>
-                  <a href="contact.html">
-                     CONTACT
-                  </a>
-               </li>
+              <li>
+                <a href="home.html">
+                  TERMS AND CONDITONS
+                </a>
+              </li>
+              <li>
+                <a href="about-us.html">
+                  PRIVACY POLICY
+                </a>
+              </li>
             </ul>
-            <div class="footer-right-banner">
-
-
-               <div class="social-btn-group flex-container">
-                  <a href="#" class="social-btn">
-                     <img src="images/play-store.png" alt="play-store" title="play-store">
-                     <span class="footer-btn-group-inner">
-                        <span>
-                           GET IT ON
-                        </span>
-                        <span class="social-txt">
-                           Google Play
-                        </span>
-                     </span>
-                  </a>
-                  <a href="#" class="social-btn">
-                     <img src="images/apple.png" alt="apple" title="apple">
-                     <span class="social-btn-group-inner">
-                        <span>
-                           DOWNLOAD ON THE
-                        </span>
-                        <span class="social-txt">
-                           App Store
-                        </span>
-                     </span>
-                  </a>
-               </div>
-               <ul class="footer-menu-list">
-                  <li>
-                     <a href="home.html">
-                        TERMS AND CONDITONS
-                     </a>
-                  </li>
-                  <li>
-                     <a href="about-us.html">
-                        PRIVACY POLICY
-                     </a>
-                  </li>
-               </ul>
-            </div>
-         </div>
+          </div>
+        </div>
       </div>
       <div class="footer-bottom-line flex-container main-container">
-         <p>
-            © IMPACT INNOVATIONS INSTITUTE 2022
-         </p>
-         <a href="#" class="exit-btn">
-            Exit
-            <span>
-               <img src="images/icon-logout.svg" alt="icon-logout" title="icon-logout">
-            </span>
-         </a>
+        <p>
+          © IMPACT INNOVATIONS INSTITUTE 2022
+        </p>
+        <a href="#" class="exit-btn">
+          Exit
+          <span>
+            <img src="images/icon-logout.svg" alt="icon-logout" title="icon-logout">
+          </span>
+        </a>
       </div>
-   </footer>
+    </footer>
    </div>
-   <script src="js/jquery.min.js"></script>
+   <script src="assets/jquery/jquery.min.js"></script>
    <script src="js/script.js"></script>
-   <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
