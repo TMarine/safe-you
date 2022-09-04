@@ -663,3 +663,53 @@ footer {
     padding:0 30px;
   }
 }
+
+@mixin circle-text($size, $font-size, $width, $letter-width) {
+  &, &>* {
+    box-sizing: border-box;
+  }
+  position: relative;
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+
+  >div {
+    position: absolute;
+    font-size: $font-size;
+    line-height:1;
+    letter-spacing: 0;
+    top: $letter-width/10;
+    left: $letter-width/10;
+    right: $letter-width/10;
+    bottom: $letter-width/10;
+    width: auto;
+    height: auto;
+    transform: translate(#{$size/2 - $letter-width*.55}, 0);
+
+    >span {
+      height: 50%;
+      position: absolute;
+      width: $letter-width;
+      left: 0;
+      top: 0;
+      transform-origin: bottom center;
+    }
+  }
+
+  >img {
+    display: block;
+    font-size: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: $width;
+    height: $width;
+    margin: auto;
+  }
+}
+
+.badge {
+  @include circle-text(180px, 14px, 144px, 20px)
+}
