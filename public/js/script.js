@@ -21,3 +21,6 @@ $(function () {
 	});
   });
   
+  $(function() {
+	$(".circle-text").lettering();
+});
